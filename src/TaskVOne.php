@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Task {
+class TaskVOne {
 
     public $output = [];
 
@@ -26,6 +26,6 @@ class Task {
 
 }
 
-$obj = new Task();
+$obj = new TaskVOne();
 
 $obj->TaskOne();
