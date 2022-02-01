@@ -1,4 +1,6 @@
 {
+    "author": "Fahim Ahmed",
+    "description": "Software Architecture course first project",
     "autoload": {
         "psr-4": {
             "App\\":"src/"
