@@ -1,22 +1,24 @@
 <?php
 
+declare (strict_types = 1);
+
 namespace App;
 
-class TaskVOne {
+class TaskOne {
 
     public $output = [];
 
-    public function TaskOne($max_num = 20) {
-        for ($number = 1; $number <= $max_num; $number++) {
-            if (0 === $number % 3 && 0 === $number % 5) {
+    public function TaskOne(int $start = 1, int $end = 20) {
+        for ($start = 1; $start <= $end; $start++) {
+            if (0 === $start % 3 && 0 === $start % 5) {
                 array_push($this->output, 'Papow');
-            } elseif (0 === $number % 3) {
+            } elseif (0 === $start % 3) {
                 array_push($this->output, 'Pa');
-            } elseif (0 === $number % 5) {
+            } elseif (0 === $start % 5) {
                 array_push($this->output, 'Pow');
 
             } else {
-                array_push($this->output, $number);
+                array_push($this->output, $start);
             }
 
         }
@@ -24,9 +26,8 @@ class TaskVOne {
         echo implode(" ", $this->output);
     }
 
-
 }
 
-$obj = new TaskVOne();
+$obj = new TaskOne();
 
 $obj->TaskOne();
