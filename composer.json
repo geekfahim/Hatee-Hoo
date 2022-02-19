@@ -6,6 +6,9 @@
             "App\\":"src/"
         }
     },
+    "scripts": {
+        "tests": "php vendor/phpunit/phpunit/phpunit"
+    },
     "autoload-dev": {
         "psr-4": {
             "App\\Tests\\":"tests/"

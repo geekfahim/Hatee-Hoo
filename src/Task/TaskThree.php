@@ -1,4 +1,5 @@
 <?php
+
 declare (strict_types = 1);
 
 namespace App;
@@ -20,11 +21,11 @@ class TaskThree {
             }
 
         }
-        echo implode("-", $output) . PHP_EOL . "\n";
+        return implode("-", $output) . PHP_EOL . "\n";
     }
 
 }
 
-// $obj = new TaskThree();
+$obj = new TaskThree();
 
-// $obj->generate();
+$obj->generate();

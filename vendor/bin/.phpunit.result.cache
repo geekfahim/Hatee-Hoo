@@ -1,1 +1,1 @@
-{"version":1,"defects":{"App\\Tests\\TaskOneTest::testTaskNumberPrint":3},"times":{"App\\Tests\\TaskOneTest::testTaskNumberPrint":0.015}}
+{"version":1,"defects":{"App\\Tests\\TaskOneTest::testTaskNumberPrint":3,"App\\Tests\\TaskTest::testGenerate with data set #0":4},"times":{"App\\Tests\\TaskOneTest::testTaskNumberPrint":0.015,"App\\Tests\\TaskTest::testGenerate with data set #0":0.007}}
